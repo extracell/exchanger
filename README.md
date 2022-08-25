@@ -1,12 +1,12 @@
 ## exchanger
 
-exchanger is a plugin that separates audio in real time into up to 20 sine partials, which can be changed into square waves or saw waves. it was inspired by eliderp's resynthesis max4live device, but it has a few additional features, like a built-in filter, pitch shifting in semitones instead of ratios, independent control of amplitude and frequency smoothing, low latency, and operation in any daw that supports vst3.
+exchanger is a vst plugin that separates audio in real time into up to 20 sine partials, which can be changed into square waves or saw waves. it was inspired by eliderp's resynthesis max4live device, but it has a few additional features, like a built-in filter, pitch shifting in semitones instead of ratios, independent control of amplitude and frequency smoothing, low latency, and operation in any daw that supports vst3.
 
 download the plugin from the "releases" page.
 
 ## warning
 
-this plugin initializes all parameters when it is loaded, even if the project it is loaded in is saved. this is a bug and i might look into fixing it if there's a lot of interest in the plugin. for now, you can bounce sounds to audio or automate any parameters you change to preserve their state. my recommendation is to bounce the wet signal so you can mix it in and maintain control of the dry signal.
+this plugin resets all parameters whenever it is loaded, even if the project it is loaded in is saved. this is a bug and i might look into fixing it if there's a lot of interest in the plugin. for now, you can bounce sounds to audio or automate any parameters you change to preserve their state. my recommendation is to bounce the wet signal so you can mix it in and maintain control of the dry signal.
 
 ## parameters
 
