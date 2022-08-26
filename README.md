@@ -23,8 +23,8 @@ this plugin resets all parameters whenever it is loaded, even if the project it 
 ## installation
 
 to install this plugin, extract it into your vst3 folder.
-on windows it is usually c:\program files\common files\vst3
-on mac it is usually library/audio/plug-ins/vst3
+- on windows the folder is normally c:\program files\common files\vst3
+- on mac the folder is normally library/audio/plug-ins/vst3
 
 ## credits
 
