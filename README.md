@@ -1,4 +1,4 @@
-## exchanger
+## overview
 
 exchanger is a vst plugin that separates audio in real time into up to 20 sine partials, which can be changed into square waves or saw waves. it was inspired by eliderp's resynthesis max4live device, but it has a few additional features, like a built-in filter, pitch shifting in semitones instead of ratios, independent control of amplitude and frequency smoothing, low latency, and operation in any daw that supports vst3.
 
