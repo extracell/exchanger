@@ -22,6 +22,7 @@ download the plugin from the "releases" page.
 to install this plugin, extract it into your vst3 folder.
 - on windows the folder is normally c:\program files\common files\vst3
 - on mac the folder is normally library/audio/plug-ins/vst3
+
 if you're on mac, you will have to do some additional work to get the plugin running. you can find instructions and a video [here](https://github.com/pierreguillot/Camomile/wiki/How-to-generate-plugins#manual-all-operating-system).
 
 ## changing source files
