@@ -1,0 +1,17 @@
+param -name partials -min 1 -max 20 -default 20 -nsteps 20;
+param -name waveform -min 0 -max 256 -default 0;
+param -name amp smooth -label ms -min 0 -max 100 -default 20 
+param -name freq smooth -label ms -min 0 -max 100 -default 10 
+param -name filter -label hz -min 200 -max 21000 -default 21000 
+param -name max analysis -label hz -min 200 -max 21000 -default 21000 
+param -name mix -min 0 -max 100 -default 100
+param -name pitch -label semitones -min -24 -max 24 -default 0
+param -name stereo -min 0 -max 100 -default 80
+param -name min analysis -label hz -min 20 -max 1000 -default 20 
+iolayout 2 2;
+code zWrt;
+type effect;
+image exchanger.png;
+description infos.txt;
+manufacturer extracell
+compatibility 1.0.7;
